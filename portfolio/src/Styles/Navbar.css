@@ -1,0 +1,127 @@
+:root {
+  --yellow: #f7f719;
+  --darkBlue: #0e2d3d;
+}
+
+#bg {
+  background-color: none;
+  /* background: transparent; */
+  margin-bottom: -150px;
+  padding: 40px;
+  transition: 0.5s;
+}
+#bg-color {
+  background-color: #d42d05;
+  opacity: 0.9;
+  transition: 0.7s;
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+  z-index: 10000;
+}
+
+.menu-btn i {
+  color: black;
+  font-size: 30px;
+  cursor: pointer;
+  display: none;
+}
+.menu-btn {
+  align-self: flex-start;
+}
+.nav1 {
+  height: 55px;
+  background: var(--bgBlue);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 30px 0px 100px;
+}
+.ul {
+  display: flex;
+  list-style: none;
+  margin-bottom: 0rem;
+  padding-left: 35rem;
+}
+.ul .li {
+  margin: 0 5px;
+}
+.ul .li a {
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 1px;
+
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: all 0.5s ease;
+}
+.ul .li a:hover {
+  background: #fff;
+  color: black;
+}
+#click {
+  display: none;
+}
+@media screen and (min-width: 200px) and (max-width: 800px) {
+  #bg {
+    background: transparent;
+    margin-bottom: -160px;
+    padding: 20px;
+  }
+}
+
+@media screen and (min-width: 800px) and (max-width: 1300px) {
+  #bg {
+    background: transparent;
+    margin-bottom: -160px;
+    padding: 20px;
+  }
+}
+
+@media (max-width: 940px) {
+  .nav1 {
+    height: 55px;
+    padding: 0px 30px 0px 30px;
+  }
+  .menu-btn i {
+    display: block;
+    margin-left: 20vw;
+    margin-top: 1vh;
+  }
+
+  #click:checked ~ .menu-btn i::before {
+    content: "\f00d";
+    font-size: 35px;
+  }
+  .ul {
+    position: fixed;
+    background: #0e2d3d;
+    top: 70px;
+    right: -105%;
+    height: 100%;
+    width: 45%;
+    display: block;
+    text-align: center;
+    transition: all 0.5s ease;
+    z-index: 1000;
+    padding-left: 0rem;
+  }
+  #click:checked ~ .ul {
+    right: 0px;
+  }
+  .ul .li {
+    margin-top: 30px;
+  }
+  .ul .li a {
+    color: white;
+    font-size: 20px;
+  }
+  .ul .li a:hover {
+    background: none;
+    color: #f65601;
+  }
+}
