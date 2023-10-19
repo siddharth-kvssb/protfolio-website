@@ -22,7 +22,7 @@ function Navbar() {
       <div class="sticky">
         <div class="nav1">
           <div>
-            <img style={{ width: "200px" }} src={img} />
+            <img style={{ width: "150px" }} src={img} />
           </div>
           <input type="checkbox" id="click" />
           <label for="click" class="menu-btn">
