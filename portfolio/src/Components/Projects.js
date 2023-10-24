@@ -1,0 +1,54 @@
+import React, { Component } from "react";
+import "../Styles/Projects.css";
+
+export class Projects extends Component {
+  render() {
+    return (
+      <div id="Events" className="past-events-container">
+        <div className="title-event">Projects</div>
+        <main class="page-content">
+          <div className="card">
+            <div class="content-event">
+              <h2 class="title sep-title">Cultural & sports Events</h2>
+              <p className="copy">
+                Cultural events are where we get to party and celebrate our
+                diversity, traditions, arts, and customs! Let's come together,
+                have fun, and learn about different cultures!
+              </p>
+              <a
+                href="https://drive.google.com/file/d/1FefqzDCrOw4JttQGaxsLYd9FdtTChGth/view"
+                target="_blank"
+              >
+                <button class="btn btn-outline-dark">View Events</button>
+              </a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="content-event">
+              <h2 class="title">Technical Events</h2>
+              <p class="copy">
+                Tech events are where we geek out, explore new innovations,
+                share ideas, and connect with fellow techies! Let's learn,
+                network, and innovate together
+              </p>
+              <a
+                href="https://drive.google.com/file/d/1HixlPVZymMyUFgrU2I30QVLNEcfRaUyY/view?usp=sharing"
+                target="_blank"
+              >
+                <button class="btn btn-outline-dark">View Events</button>
+              </a>
+            </div>
+          </div>
+          {/* <div class="card"> 
+            <div class="content-event">
+              <h2 class="title">Sports Events</h2>
+              <p class="copy">Check out all Sports events taking place</p>
+              <button class="btn">View Events</button>
+            </div>
+    </div>*/}
+        </main>
+      </div>
+    );
+  }
+}
+export default Projects;

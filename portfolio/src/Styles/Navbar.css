@@ -1,21 +1,17 @@
-:root {
-  --yellow: #f7f719;
-  --darkBlue: #0e2d3d;
+.filler7 {
+  margin-bottom: 1%;
 }
-
-#bg {
-  background-color: none;
-  /* background: transparent; */
-  margin-bottom: -150px;
-  padding: 40px;
-  transition: 0.5s;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
 }
-#bg-color {
-  background-color: #d42d05;
-  opacity: 0.9;
-  transition: 0.7s;
+.navbarImage {
+  width: 350px;
+  padding-left: 0px;
 }
-
 .sticky {
   position: sticky;
   top: 0;
@@ -23,33 +19,31 @@
 }
 
 .menu-btn i {
-  color: black;
+  color: #ecf27c;
   font-size: 30px;
   cursor: pointer;
   display: none;
 }
-.menu-btn {
-  align-self: flex-start;
-}
+
 .nav1 {
   height: 55px;
-  background: var(--bgBlue);
+  background: #23153c;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0px 30px 0px 100px;
+  overflow-x: none;
 }
 .ul {
   display: flex;
   list-style: none;
   margin-bottom: 0rem;
-  padding-left: 35rem;
 }
 .ul .li {
   margin: 0 5px;
 }
 .ul .li a {
-  color: black;
+  color: white;
   text-decoration: none;
   font-size: 18px;
   font-weight: 500;
@@ -66,31 +60,22 @@
 #click {
   display: none;
 }
-@media screen and (min-width: 200px) and (max-width: 800px) {
-  #bg {
-    background: transparent;
-    margin-bottom: -160px;
-    padding: 20px;
-  }
-}
-
-@media screen and (min-width: 800px) and (max-width: 1300px) {
-  #bg {
-    background: transparent;
-    margin-bottom: -160px;
-    padding: 20px;
-  }
-}
-
 @media (max-width: 940px) {
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    overflow-x: hidden;
+  }
+
   .nav1 {
     height: 55px;
     padding: 0px 30px 0px 30px;
   }
   .menu-btn i {
     display: block;
-    margin-left: 20vw;
-    margin-top: 1vh;
   }
 
   #click:checked ~ .menu-btn i::before {
@@ -99,9 +84,9 @@
   }
   .ul {
     position: fixed;
-    background: #0e2d3d;
-    top: 70px;
-    right: -105%;
+    background: #ecf27c;
+    top: 55px;
+    right: -100%;
     height: 100%;
     width: 45%;
     display: block;
@@ -117,11 +102,11 @@
     margin-top: 30px;
   }
   .ul .li a {
-    color: white;
+    color: black;
     font-size: 20px;
   }
   .ul .li a:hover {
     background: none;
-    color: #f65601;
+    color: blueviolet;
   }
 }

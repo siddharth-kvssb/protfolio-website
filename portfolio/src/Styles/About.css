@@ -1,0 +1,28 @@
+.about {
+  margin-top: 40vh;
+}
+.ratio {
+  width: 60%;
+}
+.about-display {
+  display: flex;
+}
+.about-container {
+  padding: 25px;
+  background-color: white;
+}
+.about-heding {
+  text-align: center;
+  margin-bottom: 50px;
+  color: black;
+}
+.about-content {
+  padding: 50px;
+  color: black;
+}
+
+@media (max-width: 480px) {
+  .about-display {
+    display: block;
+  }
+}

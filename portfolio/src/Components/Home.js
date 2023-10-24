@@ -1,5 +1,10 @@
 import React, { useState, useEffect, useRef } from "react";
+import "../Styles/Home.css";
 import BIRDS from "vanta/dist/vanta.birds.min";
+import GLOBE from "vanta/dist/vanta.globe.min";
+import NET from "vanta/dist/vanta.net.min";
+import RINGS from "vanta/dist/vanta.rings.min";
+
 import * as THREE from "three";
 
 export const Home = () => {
@@ -9,13 +14,14 @@ export const Home = () => {
   useEffect(() => {
     if (!vantaEffect) {
       setVantaEffect(
-        BIRDS({
-          el: "#your-element-selector",
+        GLOBE({
+          el: vantaRef.current,
+          THREE: THREE,
           mouseControls: true,
           touchControls: true,
           gyroControls: false,
-          minHeight: 200.0,
-          minWidth: 200.0,
+          minHeight: 700.0,
+          minWidth: 600.0,
           scale: 1.0,
           scaleMobile: 1.0,
         })
@@ -27,9 +33,12 @@ export const Home = () => {
   }, [vantaEffect]);
   return (
     <div ref={vantaRef}>
-      <p style={{ color: "#fff", paddingTop: "20px" }}>hi</p>
+      <p class="home-text">
+        {" "}
+        GROW YOUR <br></br>COMPANY WITH US
+      </p>
     </div>
   );
 };
-
 export default Home;
+//style={{ color: "#fff", paddingTop: "20px" }}
