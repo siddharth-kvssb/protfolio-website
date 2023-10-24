@@ -14,7 +14,7 @@ export const Home = () => {
   useEffect(() => {
     if (!vantaEffect) {
       setVantaEffect(
-        GLOBE({
+        RINGS({
           el: vantaRef.current,
           THREE: THREE,
           mouseControls: true,

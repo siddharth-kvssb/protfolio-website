@@ -3,7 +3,7 @@ import "../Styles/Navbar.css";
 //import img from "../Assets/NavbarLogo-Anaadyanta.svg";
 function Navbar() {
   return (
-    <div>
+    <div class="sticky">
       <div class="nav1">
         <div>
           <img src="" height="68px" width="240px" />
