@@ -20,24 +20,14 @@ function Navbar() {
           <li class="li">
             <a href="#newAbout">About</a>
           </li>
+
           <li class="li">
-            <a href="#newTracks">Tracks</a>
+            <a href="#newPrizes">Projects</a>
           </li>
           <li class="li">
-            <a href="#newPrizes">Prizes</a>
+            <a href="#newTimeline">Pricing</a>
           </li>
-          <li class="li">
-            <a href="#newTimeline">Timeline</a>
-          </li>
-          <li class="li">
-            <a href="#newSponsors">Sponsors</a>
-          </li>
-          <li class="li">
-            <a href="#newTeams">Teams</a>
-          </li>
-          <li class="li">
-            <a href="#newFaq">FAQ</a>
-          </li>
+
           <li class="li">
             <a href="#footer">Contact Us</a>
           </li>

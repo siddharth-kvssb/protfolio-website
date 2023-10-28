@@ -5,7 +5,7 @@
 .images1 {
   display: flex;
   justify-content: center;
-  margin: auto 40vh;
+  margin: auto 30vh;
   padding: 5vh;
   background-color: #23153c;
   gap: 15vh;
@@ -14,7 +14,7 @@
 .images2 {
   display: flex;
   justify-content: center;
-  margin: auto 40vh;
+  margin: auto 30vh;
   padding: 5vh;
   background-color: #23153c;
   gap: 15vh;

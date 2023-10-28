@@ -34,10 +34,17 @@ export const Home = () => {
   }, [vantaEffect]);
   return (
     <div ref={vantaRef}>
-      <p class="home-text">
-        {" "}
-        GROW YOUR <br></br>COMPANY WITH US
-      </p>
+      <div class="animated-title">
+        <div class="text-top">
+          <div>
+            <span>Transforming Ideas</span>
+            <span>into</span>
+          </div>
+        </div>
+        <div class="text-bottom">
+          <div>Seamless Digital Experiences</div>
+        </div>
+      </div>
     </div>
   );
 };

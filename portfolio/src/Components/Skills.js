@@ -3,8 +3,36 @@ import "../Styles/Skills.css";
 function Skills() {
   return (
     <div class="skills-wrap">
-      <h2 class="skill-title">Skills we use</h2>
+      <h2 class="skill-title">Skills</h2>
       <div class="images1">
+        <div>
+          <img
+            class="skill-img"
+            src="https://cdn.worldvectorlogo.com/logos/html-1.svg"
+          ></img>
+          <h5>HTML</h5>
+        </div>
+        <div>
+          <img
+            class="skill-img"
+            src="https://cdn.worldvectorlogo.com/logos/css-3.svg"
+          ></img>
+          <h5>CSS</h5>
+        </div>
+        <div>
+          <img
+            class="skill-img"
+            src="https://cdn.worldvectorlogo.com/logos/bootstrap-5-1.svg"
+          ></img>
+          <h5>Bootstrap</h5>
+        </div>
+        <div>
+          <img
+            class="skill-img"
+            src="https://cdn.worldvectorlogo.com/logos/logo-javascript.svg"
+          ></img>
+          <h5>Java script</h5>
+        </div>
         <div>
           <img
             class="skill-img"
@@ -12,6 +40,8 @@ function Skills() {
           ></img>
           <h5>React.js</h5>
         </div>
+      </div>
+      <div class="images2">
         <div>
           <img
             class="skill-img"
@@ -26,15 +56,6 @@ function Skills() {
           ></img>
           <h5>Nuxt.js</h5>
         </div>
-        <div>
-          <img
-            class="skill-img"
-            src="https://cdn.worldvectorlogo.com/logos/logo-javascript.svg"
-          ></img>
-          <h5>Java script</h5>
-        </div>
-      </div>
-      <div class="images2">
         <div>
           <img
             class="skill-img"
@@ -55,13 +76,6 @@ function Skills() {
             src="https://www.svgrepo.com/show/452202/figma.svg"
           ></img>
           <h5>Figma</h5>
-        </div>
-        <div>
-          <img
-            class="skill-img"
-            src="https://cdn.worldvectorlogo.com/logos/bootstrap-5-1.svg"
-          ></img>
-          <h5>Bootstrap</h5>
         </div>
       </div>
     </div>
