@@ -3,7 +3,7 @@ import "../Styles/Prizing.css";
 function Prizing() {
   return (
     <div class="prizing-wrap">
-      <h2> Pricing Tables</h2>
+      <h2 class="price-title">PRICING</h2>
 
       <div class="columns">
         <ul class="price">

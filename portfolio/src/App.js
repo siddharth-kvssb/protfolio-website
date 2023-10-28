@@ -6,6 +6,8 @@ import Home from "./Components/Home";
 import About from "./Components/About";
 import Projects from "./Components/Projects";
 import Prizing from "./Components/Prizing";
+import Contact from "./Components/Contact";
+import Skills from "./Components/Skills";
 
 function App() {
   return (
@@ -14,8 +16,10 @@ function App() {
         <Navbar />
         <Home />
         <About />
+        <Skills />
         <Projects />
         <Prizing />
+        <Contact />
       </div>
     </BrowserRouter>
   );

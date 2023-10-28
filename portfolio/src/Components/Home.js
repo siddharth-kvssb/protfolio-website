@@ -14,7 +14,7 @@ export const Home = () => {
   useEffect(() => {
     if (!vantaEffect) {
       setVantaEffect(
-        RINGS({
+        GLOBE({
           el: vantaRef.current,
           THREE: THREE,
           mouseControls: true,
@@ -24,6 +24,7 @@ export const Home = () => {
           minWidth: 600.0,
           scale: 1.0,
           scaleMobile: 1.0,
+          color: 0x3fb1ff,
         })
       );
     }
