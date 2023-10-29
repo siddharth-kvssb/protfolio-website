@@ -1,38 +1,23 @@
-.about {
-  margin-top: 40vh;
+* {
+  overflow-x: hidden;
 }
-.ratio {
-  width: 60%;
-}
-.about-display {
-  display: flex;
-}
-.about-container {
-  padding: 25px;
-  background-color: white;
-  text-align: justify;
-}
-.about-heding {
-  text-align: center;
-  margin-top: 65vh;
-  color: black;
-}
-.about-content {
-  color: black;
-  padding: 5vh 10vh;
-  font-weight: 100;
-  margin-top: 10vh;
+.about-wrap {
+  color: white;
+  background-color: #23153c;
+  width: 100%;
+  height: 100%;
 }
 .about-flex {
   display: flex;
-  padding: 5vh;
+}
+
+h2 {
+  margin-bottom: 30px;
 }
 .about-img {
-  margin-right: 10vh;
-  margin-top: -5vh;
+  margin-top: -40px;
 }
-@media (max-width: 480px) {
-  .about-display {
-    display: block;
-  }
+.about-content {
+  margin-top: 30px;
+  text-align: left;
 }

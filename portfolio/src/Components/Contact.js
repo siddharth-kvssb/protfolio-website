@@ -4,15 +4,17 @@ import img from "../Assets/contact.svg";
 function Contact() {
   return (
     <div class="contact-wrap">
-      <h1 class="contact-title">CONTACT US</h1>
-      <div>
-        {" "}
-        <img src="" height="68px" width="240px" />
-      </div>
-      <div>
-        <h3>Do you want to reach out to us ?</h3>
-        <h3>email to us at :</h3>
-        <h3>contact :</h3>
+      <h2>CONTACT US</h2>
+      <div class="contact-flex">
+        <div>
+          <div class="contact-details">
+            <img src="" height="68px" width="240px"></img>
+            <h3>If you want your website to stand out</h3>
+            <h3>email to us at :</h3>
+            <h3>contact :</h3>
+            <h3>Follow us:</h3>
+          </div>
+        </div>
         <div class="contact-img">
           {" "}
           <dotlottie-player

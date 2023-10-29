@@ -1,10 +1,17 @@
-.home-text {
-  color: white;
-  text-align: left;
-  font-size: 40px;
-  padding-top: 30vh;
-  padding-left: 10vh;
-  font-weight: 100;
+* {
+  overflow-x: hidden;
+}
+.home-wrap {
+  background-color: #23153c;
+  width: 103%;
+}
+.home-flex {
+  display: flex;
+  padding: 5vh;
+}
+.home-img {
+  margin-top: -100px;
+  margin-left: 2vh;
 }
 
 @import url("https://fonts.googleapis.com/css?family=Roboto:700");
@@ -30,13 +37,16 @@
 }
 .animated-title {
   color: white;
+
+  padding: 20px;
+  border-radius: 10px;
   font-family: Roboto, Arial, sans-serif;
-  height: 90vmin;
-  left: 30%;
+  height: 50vmin;
+  left: 75%;
   position: absolute;
   margin-top: 20%;
   transform: translate(-50%, -50%);
-  width: 95vmin;
+  width: 90vmin;
 }
 .animated-title > div {
   height: 50%;
@@ -45,7 +55,7 @@
   width: 100%;
 }
 .animated-title > div div {
-  font-size: 7vmin;
+  font-size: 5vmin;
   padding: 2vmin 0;
   position: absolute;
 }

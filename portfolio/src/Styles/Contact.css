@@ -1,18 +1,21 @@
+.contact-wrap {
+  background-color: #23153c;
+  color: white;
+  padding: 5%;
+  height: 110.75%;
+  width: 100%;
+}
+
 .contact-title {
   text-align: center;
 }
-.contact-wrap {
-  background-color: #23153c;
-  margin-top: 500px;
-  color: white;
+.contact-details {
   text-align: left;
-  padding: 2%;
 }
 
-h3 {
-  margin-top: 10px;
+.contact-flex {
+  display: flex;
 }
-.contact-img {
-  margin-top: -30vh;
-  margin-left: 1025px;
+h3 {
+  margin-top: 10%;
 }

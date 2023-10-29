@@ -8,18 +8,13 @@ import Projects from "./Components/Projects";
 import Prizing from "./Components/Prizing";
 import Contact from "./Components/Contact";
 import Skills from "./Components/Skills";
+import Effects from "./Components/Effects";
 
 function App() {
   return (
     <BrowserRouter>
       <div className="App">
-        <Navbar />
-        <Home />
-        <About />
-        <Skills />
-        <Projects />
-
-        <Contact />
+        <Effects />
       </div>
     </BrowserRouter>
   );

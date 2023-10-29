@@ -2,7 +2,7 @@ import React from "react";
 import "../Styles/Skills.css";
 function Skills() {
   return (
-    <div class="skills-wrap">
+    <div class="skills-wrap" id="Skills">
       <h2 class="skill-title">Skills</h2>
       <div class="images1">
         <div>

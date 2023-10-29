@@ -8,41 +8,31 @@ import RINGS from "vanta/dist/vanta.rings.min";
 import * as THREE from "three";
 
 export const Home = () => {
-  const [vantaEffect, setVantaEffect] = useState(0);
-  const vantaRef = useRef(null);
-
-  useEffect(() => {
-    if (!vantaEffect) {
-      setVantaEffect(
-        GLOBE({
-          el: vantaRef.current,
-          THREE: THREE,
-          mouseControls: true,
-          touchControls: true,
-          gyroControls: false,
-          minHeight: 700.0,
-          minWidth: 600.0,
-          scale: 1.0,
-          scaleMobile: 1.0,
-          color: 0x3fb1ff,
-        })
-      );
-    }
-    return () => {
-      if (vantaEffect) vantaEffect.destroy();
-    };
-  }, [vantaEffect]);
   return (
-    <div ref={vantaRef}>
-      <div class="animated-title">
-        <div class="text-top">
-          <div>
-            <span>Transforming Ideas</span>
-            <span>into</span>
-          </div>
+    <div class="home-wrap">
+      <div class="home-flex">
+        <div class="home-img">
+          <dotlottie-player
+            src="https://lottie.host/f194beee-8faa-410c-ba8b-a381229689d9/6eKb6ZaZwI.json"
+            background="transparent"
+            speed="1.5"
+            style={{ width: "100vh", height: "100vh" }}
+            direction="1"
+            mode="normal"
+            loop
+            autoplay
+          ></dotlottie-player>
         </div>
-        <div class="text-bottom">
-          <div>Seamless Digital Experiences</div>
+        <div class="animated-title">
+          <div class="text-top">
+            <div>
+              <span>Transforming Ideas</span>
+              <span>into</span>
+            </div>
+          </div>
+          <div class="text-bottom">
+            <div>Seamless Digital Experiences</div>
+          </div>
         </div>
       </div>
     </div>
